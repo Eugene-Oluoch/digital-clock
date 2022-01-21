@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #4A4A4A;
+}
+
+.section-clock {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Bungee Shade', cursive;
+}
+
+.clock {
+  width: 350px;
+  height: 170px;
+  border-radius: .5rem;
+  backdrop-filter: blur(25px) saturate(84%);
+  -webkit-backdrop-filter: blur(25px) saturate(84%);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.digital-clock {
+  background-color: black;
+  width: 320px;
+  border-radius: .3rem;
+  height: 100px;
+  color: #00ff57;
+  font-size: 4rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.extra {
+  padding-top: .5rem;
+  font-size: .7rem;
+  color: white;
+  font-family: monospace;
+}
+
+.clock-display-divide {
+  color: blue;
+}
+
+.clock-display-seconds {
+  padding-left: .9rem;
+  font-size: 1.9rem;
+}
+/*# sourceMappingURL=style.css.map */
